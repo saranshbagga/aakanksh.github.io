@@ -69,11 +69,26 @@
 .fas{
   height:20px;
 }
+.back{
+  position: absolute;
+  top: 10px;
+  left: 25px;
+}
 
 .sign-in{
   position: absolute;
   right: 30px;
   top: 10px;
+}
+.cart{
+  position: absolute;
+  right: 250px;
+  top: 10px;
+}
+#inc{
+  background-color: inherit;
+  border-style: none;
+  width: 20px;
 }
 .heading{
   padding: 50px 0 25px;

@@ -24,7 +24,16 @@
 </head>
 
 <body>
-  <!-- sign-in -->
+
+  <!-- sign-in and cart -->
+  <div class="cart">
+    <button class="btn btn-lg btn-outline-light" onClick="buttonClick()">Cart <i class="fa fa-shopping-cart"></i><input type="text" id="inc" value="0" readonly></input></button>
+
+  </div>
+
+  <div class="sign-in">
+    <button onCLick="openForm()" class="btn btn-lg btn-outline-light" type="button"><i class="fas fa-sign-in-alt"></i>Sign-in/Sign-up</button>
+  </div>
   <div class="form-popup" id="myForm">
   <form action="index.html" class="form-container">
     <h1>Login</h1>
@@ -55,9 +64,6 @@
           <button type="button" class="btn btn-primary sbutton">
             <i class="fas fa-search"></i>
           </button>
-        </div>
-        <div class="sign-in">
-          <button onCLick="openForm()" class="btn btn-lg btn-outline-light" type="button"><i class="fas fa-sign-in-alt"></i>Sign-in/Sign-up</button>
         </div>
         <div class="options">
 
